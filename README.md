@@ -41,3 +41,4 @@ We can check that the agent is successfully running by going back to Wazuh and c
 
 <img width="1171" height="693" alt="image" src="https://github.com/user-attachments/assets/59944756-7869-4be5-9bd0-74f62e8afc34" />
 
+It just works! This concludes the configuration of Wazuh onto my existing network.
