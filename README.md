@@ -21,5 +21,23 @@ Then we will restart the network and check that the IP address has been configur
 
 <img width="651" height="570" alt="image" src="https://github.com/user-attachments/assets/4a12c46e-7629-4c15-8287-40678d0921ce" />
 
+To check that it was correctly configured, we can ping the specific IP addresses and check if there is a response. Then we will type in the IP address into the browser of out Kali Linux machine. Then we will login to Wazuh using the defalut username and password.
 
+<img width="794" height="518" alt="image" src="https://github.com/user-attachments/assets/22f38b3c-3c07-4294-b22d-dae4e5dc32ab" />
+
+It should look like this after logging in.
+
+<img width="978" height="650" alt="image" src="https://github.com/user-attachments/assets/ccfb19cd-7e90-45a4-9e35-579c89f662c0" />
+
+Then we are going to add an agent. To do this we go to add agent then choose the operating system we want to add the agent to. Then enter in the server address (IP address that we previously configured). Then we will copy the command into the kali linux shell and run the script.
+
+<img width="873" height="518" alt="image" src="https://github.com/user-attachments/assets/d45215b5-98e6-4dc7-b833-30f926501a95" />
+
+The we will copy and paste the script that runs the service into the linux shell.
+
+<img width="783" height="528" alt="image" src="https://github.com/user-attachments/assets/b12675d6-88f6-4074-b9dd-f41b55df096a" />
+
+We can check that the agent is successfully running by going back to Wazuh and checking if the agents are running properly.
+
+<img width="1171" height="693" alt="image" src="https://github.com/user-attachments/assets/59944756-7869-4be5-9bd0-74f62e8afc34" />
 
